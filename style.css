@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+* {
+  box-sizing: border-box;
+  background-color: #212121;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#hora {
+  color: red;
+  font-size: 75px;
+  border: 6px solid lightslategray;
+  border-radius: 10px;
+  width: 320px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+#fecha {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
