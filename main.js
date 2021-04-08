@@ -1,7 +1,8 @@
 function printTime() {
     var x = new Date();
 
-    var day = x.getDate(),
+    var day = x.getDate()
+    diaSemana = x.getDay(),
 	month = x.getMonth(),
 	year = x.getFullYear(),
     fechaActual = document.getElementById("fecha"),
@@ -17,7 +18,7 @@ function printTime() {
     var meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
     
     var mesActual = meses[month];
-    var diaActual = dias[day];
+    var diaActual = dias[diaSemana];
     fechaActual = document.getElementById("fecha");
     fechaActual.innerHTML = `${diaActual} ${day} de ${mesActual} del ${year}`;
 }
